@@ -11,18 +11,18 @@ navLinks.forEach(link => {
     })
 })
 
-// window.addEventListener('load', function () {
-//     var el = document.querySelectorAll('img.about-me--img');
-//     Lightense(el, {
-//         time: 300,
-//         padding: 40,
-//         offset: 40,
-//         keyboard: true,
-//         cubicBezier: 'cubic-bezier(.2, 0, .1, 1)',
-//         background: 'rgba(255, 255, 255, .98)',
-//         zIndex: 2147483647
-//     });
-// }, false);
+window.addEventListener('load', function () {
+    var el = document.querySelectorAll('img.lightsense');
+    Lightense(el, {
+        time: 300,
+        padding: 40,
+        offset: 40,
+        keyboard: true,
+        cubicBezier: 'cubic-bezier(.2, 0, .1, 1)',
+        background: 'rgb(16, 12, 16, 0.5)',
+        zIndex: 2147483647
+    });
+}, false);
 
 $('.carousel').slick({
     dots: true,
