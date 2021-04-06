@@ -315,6 +315,7 @@ header {
     box-shadow: var(--bs);
     position: relative;
     z-index: 2;
+    max-width: 250px;
 }
 
 @media (min-width: 600px) {
@@ -427,6 +428,27 @@ header {
 .portfolio-item:focus .portfolio__image {
     transform: scale(1.2);
     opacity: .1;
+}
+
+.carousel {
+    overflow: visible;
+}
+
+.slider_image {
+    height: 30em;
+    /* width: 50%; */
+    object-fit: contain;
+    margin: 0 10px;
+}
+
+.slider_imageContainer {
+    height: fit-content;
+    width: fit-content;
+    /* background-color: var(--clr-accent); */
+    background: var(--clr-dark);
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
