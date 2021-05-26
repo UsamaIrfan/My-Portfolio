@@ -117,6 +117,7 @@ strong {
     font-family: var(--ff-secondary);
     margin-bottom:1em;
     padding:.25em 1em;
+    height: 2em;
 }
 
 .section__subtitle--work {
