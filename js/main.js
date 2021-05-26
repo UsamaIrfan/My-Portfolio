@@ -61,7 +61,7 @@ $('.carousel').slick({
     ]
 });
 
-var typed = new Typed('.section__subtitle', {
+var typed = new Typed('.typer', {
     strings: ["React.js Developer", "React-Native Developer", "Front-end Developer", "Flutter Developer", "Mobile Developer"],
     typeSpeed: 40,
     backSpeed: 10,
